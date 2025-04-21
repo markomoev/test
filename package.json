@@ -1,5 +1,5 @@
 {
-  "homepage" : "test",
+  "homepage" : "http://localhost:5174/",
   "name": "quiz-test",
   "version": "0.1.0",
   "private": true,
