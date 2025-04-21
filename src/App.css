@@ -1,0 +1,124 @@
+/* General body styling for a dark theme */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light gray text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Question styling */
+  .question {
+    font-size: 28px; /* Larger font size for the question */
+    font-weight: bold; /* Bold text */
+    color: #ffffff; /* White text for better contrast */
+    margin: 20px 0; /* Space above and below the question */
+    text-align: center; /* Center the text */
+    padding: 10px 20px; /* Add padding for better spacing */
+    border-bottom: 2px solid #444; /* Subtle underline */
+  }
+  
+  /* Answer list styling */
+  .answers {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 20px 0; /* Add spacing around the list */
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to create two columns */
+    justify-content: center; /* Center the columns */
+    gap: 15px; /* Add space between buttons */
+  }
+  
+  /* Individual answer button container */
+  .answer {
+    flex: 1 1 calc(50% - 15px); /* Each button takes 50% of the width minus the gap */
+    max-width: 400px; /* Limit the maximum width */
+  }
+  
+  /* Answer button styling */
+  .answer button {
+    color: #ffffff; /* Default white text */
+    padding: 15px 25px; /* Larger padding for bigger buttons */
+    border: 2px solid transparent; /* Subtle border */
+    border-radius: 12px; /* Rounded corners */
+    width: 100%; /* Full width of the container */
+    text-align: center; /* Center the text */
+    font-size: 18px; /* Larger font size */
+    font-weight: bold; /* Bold text for emphasis */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth hover effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+  }
+  
+  /* Hover effect for answer buttons */
+  .answer button:hover {
+    opacity: 0.9; /* Slight transparency on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4); /* Enhance shadow on hover */
+  }
+  
+  /* Active state for answer buttons */
+  .answer button:active {
+    transform: scale(0.98); /* Slight shrink effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow on click */
+  }
+  
+  /* Selected button styling */
+  .answer button.selected {
+    background-color: #ffffff; /* White background for selected button */
+    color: #000000; /* Black text for contrast */
+    border: 2px solid #000000; /* Black border for emphasis */
+  }
+  
+  /* Feedback message styling */
+  .feedback {
+    font-size: 20px; /* Larger font size for feedback */
+    font-weight: bold; /* Bold text */
+    margin-top: 20px; /* Space above the feedback */
+    text-align: center; /* Center the text */
+    color: #ffffff; /* Default white text */
+  }
+  
+  /* Correct feedback styling */
+  .feedback.correct {
+    color: #4caf50; /* Green for correct answers */
+  }
+  
+  /* Incorrect feedback styling */
+  .feedback.incorrect {
+    color: #f44336; /* Red for incorrect answers */
+  }
+  
+  /* Start quiz and check answer button styling */
+  button {
+    background-color: #333333; /* Neutral dark gray background */
+    color: #ffffff; /* White text for contrast */
+    padding: 15px 30px; /* Larger padding for a bigger button */
+    font-size: 18px; /* Slightly smaller font size for a clean look */
+    font-weight: bold; /* Bold text */
+    border: 2px solid #444444; /* Subtle border for definition */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth hover effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+    margin-bottom: 20px; /* Add space below the button */
+  }
+  
+  /* Hover effect for neutral buttons */
+  button:hover {
+    background-color: #444444; /* Slightly lighter gray on hover */
+    transform: scale(1.03); /* Slight zoom effect */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4); /* Enhance shadow on hover */
+  }
+  
+  /* Active state for neutral buttons */
+  button:active {
+    background-color: #555555; /* Even lighter gray when clicked */
+    transform: scale(0.98); /* Slight shrink effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow on click */
+  }

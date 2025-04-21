@@ -1,0 +1,153 @@
+[
+    {
+      "question": "What is the capital of Italy?",
+      "answer": 0,
+      "options": ["Rome", "Paris", "Madrid", "Athens"],
+      "selected": null
+    },
+    {
+      "question": "Which gas do plants absorb from the atmosphere?",
+      "answer": 1,
+      "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Helium"],
+      "selected": null
+    },
+    {
+      "question": "Which ocean is the largest?",
+      "answer": 3,
+      "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+      "selected": null
+    },
+    {
+      "question": "How many legs does a spider have?",
+      "answer": 2,
+      "options": ["6", "10", "8", "12"],
+      "selected": null
+    },
+    {
+      "question": "Which is the smallest prime number?",
+      "answer": 1,
+      "options": ["0", "2", "3", "1"],
+      "selected": null
+    },
+    {
+      "question": "Which famous ship sank in 1912?",
+      "answer": 0,
+      "options": ["Titanic", "Lusitania", "Britannic", "Olympic"],
+      "selected": null
+    },
+    {
+      "question": "What does DNA stand for?",
+      "answer": 2,
+      "options": ["Dynamic Nucleic Acid", "Digital Neural Arrangement", "Deoxyribonucleic Acid", "Double Helix Nucleic Acid"],
+      "selected": null
+    },
+    {
+      "question": "What is the square root of 144?",
+      "answer": 0,
+      "options": ["12", "14", "16", "18"],
+      "selected": null
+    },
+    {
+      "question": "Which country is home to the kangaroo?",
+      "answer": 3,
+      "options": ["South Africa", "India", "USA", "Australia"],
+      "selected": null
+    },
+    {
+      "question": "Which instrument has 88 keys?",
+      "answer": 1,
+      "options": ["Violin", "Piano", "Flute", "Trumpet"],
+      "selected": null
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "answer": 0,
+      "options": ["Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh", "Michelangelo"],
+      "selected": null
+    },
+    {
+      "question": "In which sport would you perform a slam dunk?",
+      "answer": 2,
+      "options": ["Tennis", "Football", "Basketball", "Cricket"],
+      "selected": null
+    },
+    {
+      "question": "What is the largest internal organ in the human body?",
+      "answer": 1,
+      "options": ["Heart", "Liver", "Lung", "Intestine"],
+      "selected": null
+    },
+    {
+      "question": "Which element has the symbol 'Na'?",
+      "answer": 0,
+      "options": ["Sodium", "Nitrogen", "Neon", "Nickel"],
+      "selected": null
+    },
+    {
+      "question": "How many continents are there on Earth?",
+      "answer": 2,
+      "options": ["5", "6", "7", "8"],
+      "selected": null
+    },
+    {
+      "question": "Which language has the most native speakers worldwide?",
+      "answer": 3,
+      "options": ["English", "Hindi", "Spanish", "Mandarin Chinese"],
+      "selected": null
+    },
+    {
+      "question": "Which blood type is known as the universal donor?",
+      "answer": 0,
+      "options": ["O negative", "A positive", "AB positive", "B negative"],
+      "selected": null
+    },
+    {
+      "question": "In which year did World War II end?",
+      "answer": 1,
+      "options": ["1944", "1945", "1946", "1947"],
+      "selected": null
+    },
+    {
+      "question": "What is the largest desert in the world?",
+      "answer": 3,
+      "options": ["Gobi", "Kalahari", "Arabian", "Antarctic"],
+      "selected": null
+    },
+    {
+      "question": "Which novel begins with the line 'Call me Ishmael'?",
+      "answer": 2,
+      "options": ["The Old Man and the Sea", "Great Expectations", "Moby-Dick", "The Odyssey"],
+      "selected": null
+    },
+    {
+      "question": "What does HTTP stand for?",
+      "answer": 1,
+      "options": ["Hypertext Transfer Program", "Hypertext Transfer Protocol", "High Text Transfer Protocol", "Hyperlink Transfer Protocol"],
+      "selected": null
+    },
+    {
+      "question": "Which mathematician is known for the 'Last Theorem'?",
+      "answer": 0,
+      "options": ["Fermat", "Euler", "Newton", "Gauss"],
+      "selected": null
+    },
+    {
+      "question": "Which African country has the largest population?",
+      "answer": 2,
+      "options": ["Egypt", "South Africa", "Nigeria", "Kenya"],
+      "selected": null
+    },
+    {
+      "question": "Which Shakespeare play features the characters Rosencrantz and Guildenstern?",
+      "answer": 1,
+      "options": ["Macbeth", "Hamlet", "Othello", "King Lear"],
+      "selected": null
+    },
+    {
+      "question": "Which is the only even prime number?",
+      "answer": 0,
+      "options": ["2", "4", "0", "6"],
+      "selected": null
+    }
+  ]
+  

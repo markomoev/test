@@ -1,0 +1,100 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #121212;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #64b5f6; /* Light blue for links */
+  text-decoration: inherit;
+}
+a:hover {
+  color: #42a5f5; /* Slightly darker blue on hover */
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text */
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #ffffff; /* White for headings */
+}
+
+button {
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  padding: 15px 30px; /* Larger padding for a bigger button */
+  font-size: 20px; /* Larger font size */
+  font-weight: bold; /* Bold text */
+  border: none; /* Remove border */
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: all 0.3s ease; /* Smooth hover effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+}
+
+button:hover {
+  background-color: #45a049; /* Slightly darker green on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4); /* Enhance shadow on hover */
+}
+
+button:active {
+  background-color: #388e3c; /* Even darker green when clicked */
+  transform: scale(0.98); /* Slight shrink effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow on click */
+}
+
+
+p {
+  font-size: 20px; /* Larger font size for the question */
+  font-weight: bold; /* Bold text */
+  color: #e0e0e0; /* Light gray text */
+  margin-top: 20px; /* Space above the question */
+  text-align: center; /* Center the text */
+}
+
+.card {
+  padding: 2em;
+  background-color: #1e1e1e; /* Slightly lighter dark background for cards */
+  border-radius: 10px; /* Rounded corners for the card */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
